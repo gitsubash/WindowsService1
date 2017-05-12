@@ -19,10 +19,18 @@ namespace WindowsService1
 
         protected override void OnStart(string[] args)
         {
+            //windows service run in windows.system32 directory , so Environment.CurrentDirectory won't be good choice
+            System.IO.File.Create(AppDomain.CurrentDomain.BaseDirectory+"onStart.txt");
+        }
+
+        public void OnDebug()
+        {
+            OnStart(null);
         }
 
         protected override void OnStop()
         {
+            System.IO.File.Create(AppDomain.CurrentDomain.BaseDirectory + "onStop.txt");
         }
     }
 }
