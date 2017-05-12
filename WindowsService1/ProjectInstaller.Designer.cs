@@ -30,16 +30,19 @@
         {
             this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
             this.serviceInstaller1 = new System.ServiceProcess.ServiceInstaller();
+
+
             // 
             // serviceProcessInstaller1
-            // 
+            // Service Account Information
             this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalService;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
             // 
             // serviceInstaller1
-            // 
-            this.serviceInstaller1.ServiceName = "SubashFirstService";
+            // Service Information 
+            this.serviceInstaller1.ServiceName = "WebAppService";
+            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Manual;
             // 
             // ProjectInstaller
             // 

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "WindowsService1\WindowsService1.csproj", "{53A04E53-F762-410D-8BF4-7CCC898D4178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceWebApp", "WindowsServiceWebApp\WindowsServiceWebApp.csproj", "{4A549473-A14C-4AE3-99F8-589AA3538100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{53A04E53-F762-410D-8BF4-7CCC898D4178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A04E53-F762-410D-8BF4-7CCC898D4178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A04E53-F762-410D-8BF4-7CCC898D4178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A549473-A14C-4AE3-99F8-589AA3538100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A549473-A14C-4AE3-99F8-589AA3538100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A549473-A14C-4AE3-99F8-589AA3538100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A549473-A14C-4AE3-99F8-589AA3538100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
